@@ -7,32 +7,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
         <style>
-        li{
-            margin-bottom: 16px;
-        }
-         a[target="_blank"]{
-            border: 1px solid black;
-        }
+           li{
+               margin-bottom: 16px;
+           }
+          a[href^="broken"]{
+              border: 1px solid red;
+          }
         
-        [href^="broken"]{
-            border: 1px solid red;
-        }
-        a[href$=".com"]{
-            margin-left:32px ;
-            
-        }
-        a[lang|=en]{
-            font-size: 10px;
-        }
-          
-        a[href*="www"]{
-            color: green;
-        }
-        a[title~="popular"]{
-            font-size: 24px;
-        }
-        
-        
+          a[href$=".com"]{
+              margin-left: 32px solid red;
+          }
+          a[href*="www"]{
+              color: green;
+          }
+          a[title~="popular"]{
+              font-size: 24px;
+          }
+          [lang|="en"]{
+              font-size: 10px;
+          }
+          a[target="_blank"]{
+              border: 1px solid black;
+          }
         </style>
 </head>
 
